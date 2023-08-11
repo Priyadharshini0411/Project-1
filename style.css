@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background-image{
+    width: 100%;
+    height: 100vh;
+    background: url("./Images/backg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position:center;
+}
+.top-part{
+    padding: 30px 50px;
+}
+.title{
+    padding: 40px;
+    display: inline;
+    font-size: 40px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar{
+    display: inline;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    float: left;
+}
+.btn{
+    padding: 8px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    margin: 10px 20px 20px 20px;
+    border: 0px;
+}
+.element{
+    margin: 20px;
+}
+.right-part{
+    display: flex;
+    justify-content: end;
+    margin: -55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.form{
+    width: 450px;
+    height: 570px;
+    background-color: white;
+    padding: 20px 40px;
+    margin-left:60px;
+    border-radius: 15px;
+    margin-top: 40px;
+
+
+}
+.line-one{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+}
+.line-two{
+    text-transform: uppercase;
+    margin: 15px 15px 15px 0px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Jost', sans-serif;
+}
+.line-three{
+    line-height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.line-four{
+    border: 1px solid lightgray;
+    margin: 8px -1px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.line-five{
+    border: 1px solid lightgray;
+    /* text-align: center; */
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px -1px;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+
+}
+.btn-1{
+    height: 60px;
+    margin: 0px 20px 30px 0px;
+    width: 370px;
+    border-radius: 8px;
+    background: rgb(15, 7, 29);
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    border: 0px;
+}
+
